@@ -1,0 +1,2 @@
+@olaAmigo = ->
+  alert 'Olá Amigo?!'

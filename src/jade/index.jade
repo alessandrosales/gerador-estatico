@@ -1,0 +1,8 @@
+extends ./templates/padrao.jade
+
+block content
+  h1 Lista de Clientes
+  ul
+    each cliente in clientes
+      li= cliente.nome
+  a(href="javascript:olaAmigo()") Click
